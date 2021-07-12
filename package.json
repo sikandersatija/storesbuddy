@@ -5,8 +5,8 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "cd stores_buddy_epanel && npm run build",
-    "install-client": "cd stores_buddy_epanel && npm install",
+    "build": "cd storesbuddy && npm run build",
+    "install-client": "cd storesbuddy && npm install",
     "heroku-postbuild": "npm run install-client && npm run build",
     "start": "node app.js"
   },
